@@ -6,17 +6,17 @@ namespace ProjectMVC.Models
     public class Product
     {
         [System.ComponentModel.DataAnnotations.Key]
-        public int prodcutId { get; set; }
-        public string title { get; set; }
-        public string description { get; set; }
-        public decimal price { get; set; }
+        public int ProductId { get; set; }
+        public string Title { get; set; }
+        public string Description { get; set; }
+        public decimal Price { get; set; }
 
         public Product()
         {
-            this.prodcutId = 0;
-            this.title = "";
-            this.description = "";
-            this.price = 0;
+            this.ProductId = 0;
+            this.Title = "";
+            this.Description = "";
+            this.Price = 0;
         }
     }
 
